@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+.backgroundIMG, footer, .contact, main {
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+  font-family: "Montserrat", Sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #7C828F;
+}
+
+nav .container-fluid a h1 {
+  font-family: "Titillium Web", sans-serif !important;
+  word-break: keep-all;
+}
+nav .container-fluid a:hover {
+  text-shadow: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-shadow: 2px 2px 4px #fff;
+  transition: 0.25s;
+}
+
+.carousel-inner > .item {
+  width: 100%;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+h1 {
+  color: white;
+}
+
+main {
+  background: url(../img/main-background.jpg);
+}
+
+.bg-blue {
+  background-color: #060664 !important;
+}
+
+.text-black {
+  color: black;
+}
+
+.padIntro {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: none;
+}
+
+.active {
+  color: aliceblue !important;
+  text-decoration: underline !important;
+}
+
+header {
+  background-color: #060664;
+}
+header .width-80 {
+  width: 80%;
+}
+
+.btn-primary {
+  background-color: #060664 !important;
+}
+
+a .text-center {
+  text-align: center !important;
+}
+
+.btn-primary {
+  background-color: #060664 !important;
+}
+
+.w-art {
+  width: 260px;
+}
+
+.w-main {
+  width: 35% !important;
+}
+
+.w-img {
+  width: 480px;
+}
+
+.h-img {
+  height: 310px;
+}
+
+.w-art {
+  width: 260px;
+}
+
+.w-card {
+  width: 16em;
+}
+
+.contact {
+  background-image: url(../img/contact-background.jpg) !important;
+}
+
+.text-blue {
+  color: #060664;
+}
+
+.form {
+  width: 402px !important;
+}
+
+.accord {
+  width: 50% !important;
+}
+
+.accordion-button::after {
+  background-color: white !important;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.name {
+  width: 250px;
+}
+
+.input {
+  width: 360px !important;
+}
+
+.inputGroup {
+  width: 318px !important;
+  margin-left: 0.5em !important;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(6, 6, 100, 0.9), rgba(6, 6, 100, 0.8)), url(../img/footer-background.jpg);
+}
+
+hr {
+  color: white;
+  width: 90%;
+}
+
+iframe {
+  height: 450px;
+}
+
+.info {
+  width: 350px;
+}
+
+.flex-wrap {
+  flex-basis: 100% !important;
+}/*# sourceMappingURL=style.css.map */

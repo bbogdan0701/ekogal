@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="servis, kontakt, telefon, lokacija, ekogal">
+    <meta name="description" content="Pozovite nas i vas problem s belom tehnikom će biti rešen.">
+    <meta name="author" content="Bogdan Bogdanovic">
+    <meta name="copyright" content="EKOGAL 2024.">
+    <title>Usluge | EKOGAL</title>
+    <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <header id="home" class="bg-blue">
+      <div class="width-80 mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid p-3">
+                <a class="navbar-brand" href="index.html">
+                  <h1 class="text-white py-3 fw-bold">EKOGAL</h1>
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-end collapse" id="navbarNav" style>
+                    <ul class="navbar-nav text-center fs-5  text-light">
+                        <li class="nav-item px-3">
+                          <a class="nav-link text-light" href="index.html">Početna</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link text-light" href="usluge.html">Usluge</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link text-light" href="o_nama.html">O Nama</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link active" aria-current="page" href="kontakt.html">Kontakt</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link text-light" href="autor.html">Autor</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <main class="container-fluid contact w-auto h-auto">
+        <div class="w-main mx-auto fs-1 text-center mx-auto padIntro opacity-100">
+            <h1 class="fw-bold text-white d-inline p-2 bg-blue rounded-3">
+              KONTAKT
+            </h1>
+        </div>
+        <section class="container-fluid kontaktQA h-auto d-flex flex-lg-row flex-column justify-content-evenly align-items-center py-3">
+          <article class="form p-3 bg-blue rounded-4">
+            <form action="obrada.php" method="post">
+              <div class="d-flex flex-wrap text-white">
+                  <div class="m-1">
+                    <label for="exampleInputEmail1" class="form-label">Ime</label>
+                    <input type="text" class="form-control input" id="exampleInputEmail1" required>
+                  </div>
+                  <div class="m-1">
+                    <label for="prezime" class="form-label pb-1">Prezime</label>
+                    <input type="text" class="form-control input" id="prezime" required>
+                  </div>
+                  <div class="input-group m-1 d-flex flex-column">
+                    <label for="telefon" class="form-label pb-1">Broj Telefona:</label>
+                    <div class="d-flex flex-row">
+                      <span id="basic-addon1">+381</span>
+                      <input type="tel" id="telefon" class="form-control inputGroup mb-1" aria-describedby="basic-addon1" required>
+                    </div>
+                  </div>
+                  <select class="form-select input m-1" aria-label="Default select example">
+                    <option selected>Odaberite servis</option>
+                    <option value="1">Popravka Šporeta</option>
+                    <option value="2">Popravka Veš Mašine</option>
+                    <option value="3">Popravka Frižidera</option>
+                  </select>
+                  <div class="form-floating input m-1">
+                    <textarea class="text-black rounded-3" rows="3" cols="39" placeholder="Ostavite Komentar" id="floatingTextarea"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button class="d-block mx-auto text-black p-1 rounded-4" type="submit">Submit form</button>
+                  </div>
+              </div>
+            </form>
+          </article>
+          <article class="container accord">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-3 text-white bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Kako da prepoznam kvar kod frižidera?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse close" data-bs-parent="#accordionExample">
+                  <div class="accordion-body p-3 text-white bg-blue">
+                    Ako čujete da motor frižidera radi, a uređaj ne hladi,
+                    Moguće je da čujete da motor cakće povremeno.
+                    Ne čujete da motor radi uopšte, pa zatim ne čujete opet motor i njegov rad i još primera.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-3 text-white bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Kako da prepoznam kvar kod šporeta?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body p-3 text-white bg-blue">
+                    Najveći broj kvarova u vezi je sa neispravnom ringlom. Najčešće se dešava da jedna ili više ringli prestane da radi, rerna ne greje dovoljno ili je pokvaren donji ili gornji grejač.
+                    Zatim tu su i problemi sa strujom, sa kablom koji je oštećen ili je pregoreo ili mu je potrebna zamena. 
+                    Ukoliko iskoči osigurač on može poremetiti rad na svim uređajima.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-3 text-white bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Kako da prepoznam kvar kod veš mašine?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body p-3 text-white bg-blue">
+                    Ako veš mašina dugo pere, ne centrifugira, radi pa stane, uzima previše vode, ne uzima omekšivač i prašak ili ima neki drugi kvar potrebna je popravka veš mašina.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+      <section class="container-fluid h-auto d-flex flex-wrap justify-content-evenly flex-lg-row flex-column align-items-lg-evenly align-items-center bg-blue text-white">
+        <article class="info text-center  d-flex flex-column align-items-center p-3">
+          <i class="fa fa-phone fs-3 p-2 rounded-circle text-blue bg-white"></i>
+          <span class="fs-2 fw-bold">Telefon</span>
+          <span class="fs-4">+381623456789</span>
+        </article>
+        <article class="info text-center d-flex flex-column align-items-center p-3">
+          <i class="fa fa-location fs-3 p-2 rounded-circle text-blue bg-white"></i>
+          <span class="fs-2 fw-bold">Lokacija</span>
+          <span class="fs-4">Zdravka Čelara 16, beograd</span>
+        </article>
+        <article class="info text-center d-flex flex-column align-items-center p-3">
+          <i class="fa fa-envelope fs-3 p-2 rounded-circle text-blue bg-white"></i>
+          <span class="fs-2 fw-bold">Mejl</span>
+          <span class="fs-4">ekogal@gmail.com</span>
+        </article>
+      </section>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3588588816006!2d20.481839876238784!3d44.814253371070734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2z0JLQuNGB0L7QutCwIElDVCDRiNC60L7Qu9Cw!5e0!3m2!1ssr!2srs!4v1711793166687!5m2!1ssr!2srs" class="w-100 border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="container-fluid w-100">
+        <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-evenly align-center text-center text-light">
+            <div class="mx-3 my-4 text-decoration-none" style>
+              <h5 class="text-uppercase text-bold fs-4">Korisni Linkovi</h5>
+            <ul class="text-md-start">
+              <li>
+                <a class="text-light" href="index.html">Početna</a>
+              </li>
+              <li>
+                <a class="text-light" href="usluge.html">Usluge</a>
+              </li>
+              <li>
+                <a class="text-light" href="o_nama.html">O Nama</a>
+              </li>
+              <li>
+                <a class="active" aria-current="page" href="kontakt.html">Kontakt</a>
+              </li>
+              <li>
+                <a class="text-light" href="autor.html">Autor</a>
+              </li>
+            </ul>
+            </div>
+            <div class="links mx-3 my-4 text-md-start">
+              <h5 class="text-uppercase text-bold fs-4">Fajlovi</h5>
+              <ul class="text-md-start">
+                <li>
+                  <a class="text-light" href="assets/css/responsive.scss">responsive.scss</a>
+                </li>
+                <li>
+                  <a class="text-light" href="assets/css/style.css">style.scss</a>
+                </li>
+                <li>
+                  <a class="text-light" href="robots.txt">robots.txt</a>
+                </li>
+                <li>
+                  <a class="text-light" href="sitemap.xml">sitemap.xml</a>
+                </li>
+              </ul>
+            </div>
+            <div class="ict mx-3 my-4 text-md-start">
+              <h5 class="text-uppercase text-bold">Društvene Mreže</h5>
+              <ul class="text-md-start">
+                <li><a href="https://www.instagram.com" class="text-light">Instagram</a></li>
+                <li><a href="https://www.facebook.com" class="text-light">Facebook</a></li>
+                <li><a href="https://www.linkedin.com" class="text-light">LinkedIn</a></li>
+                <li><a href="https://www.twitter.com" class="text-light">Twitter</a></li>
+              </ul>
+            </div>
+            <div class="socials text-md-start mx-3 my-4">
+              <h5 class="text-uppercase text-bold">Kontakt</h5>
+              <ul class="text-md-start">
+                <li><i class="fa fa-phone p-1"></i>0612345678</li>
+                <li><i class="fa fa-phone p-1"></i>030425555</li>
+              </ul>
+            </div>
+        </div>        
+        <hr class="mx-auto text-light"/>
+        <div class="copyright">
+          <p class="text-center text-bold p-2 text-light">DOO EKOGAL &copy; Sva prava zadržana.</p>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

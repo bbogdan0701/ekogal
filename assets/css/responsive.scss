@@ -1,0 +1,122 @@
+@media (max-width: 1117.9px) {
+    //index.html
+   a[role="button"]{ 
+       &:last-child{
+       margin-top: 5px !important;}
+    }
+}
+@media (max-width: 991.5px) {
+    //index.html
+    a[role="button"]{ 
+        &:last-child{
+        margin-top: 0px !important;}
+    }
+    .w-responsive{
+        width: 100% !important;
+        height: 100%;
+    }
+}
+@media (max-width: 589px){
+    //index.html
+    #cover-block{
+        width: 90% !important;
+    }
+}
+@media (max-width: 414px){
+    //index.html
+    #cover-block{
+        p, a{font-size: 16px !important;}
+    }
+}
+@media (max-width: 368px) {
+    //index.html
+    a[role="button"]{ 
+        &:last-child{
+        margin-top: 5px !important;}
+    }
+}
+
+
+
+
+
+
+@media(max-width: 991.5px){
+    //usluge.html
+    section{
+        article{
+            .img{
+                width: 100%;
+                height: 100%;
+            }
+            .service{
+                width: 95% !important;
+                h2{
+                    font-size: 38px !important;
+                }
+                p{
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 726px){
+    //usluge.html
+    .intro{
+        padding: 0px !important;
+        width: 90% !important;
+    }
+    section{
+        article{
+            .service{
+                h2{
+                    font-size: 28px !important;
+                }
+                p{
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 400px){
+    .w-main{
+        width: 60% !important;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 992px){
+    .kontaktQA{
+        gap: 20px;
+    }
+    .accord{
+        width: 75% !important;
+    }
+}
+@media (max-width: 415px){
+    .form{
+        width: 350px !important;
+    }
+    .input{
+        width: 310px !important;
+    }
+    .inputGroup{
+        width: 270px !important;
+    }
+    textarea{
+        width: 310px !important;
+    }
+    .accord{
+        width: 90% !important;
+    }
+}
+
+
+
